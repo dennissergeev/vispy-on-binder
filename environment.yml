@@ -2,17 +2,16 @@ name: vispy
 channels:
 - scitools
 dependencies:
+- python=3.5
 - basemap
-- beautifulsoup4
 - cartopy
 - gdal
-- iris
+- iris>=1.9
 - jupyter
-- matplotlib
+- matplotlib>=1.5
 - numpy
 - pandas
 - scipy
-- seaborn
 - xray
- - pip:
-    - vispy
+- pip:
+- umtools
